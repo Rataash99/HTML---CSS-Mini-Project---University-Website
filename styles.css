@@ -2,9 +2,16 @@
     margin: 0;
     padding:0;
 }
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
 body{
     background-color: black;
     color:rgb(174, 163, 163);
+    overflow-x: hidden;
 }
 .first_page::before{
     content: "";
@@ -91,7 +98,7 @@ body{
     }
 
     .content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 20vh;
     font-size: 0.8rem;
     padding: 10px 40px;
@@ -106,7 +113,7 @@ body{
     }
 
     .content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 20vh;
     font-size: 0.6rem;
     padding: 10px 40px;
@@ -121,7 +128,7 @@ body{
     }
 
     .content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 20vh;
     font-size: 0.8rem;
     padding: 10px 40px;
