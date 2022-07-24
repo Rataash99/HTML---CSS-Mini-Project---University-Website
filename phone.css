@@ -1,0 +1,140 @@
+body{
+    /* background-color: white; */
+}
+
+/* responsive header */
+header::before{
+    height: 25vh;
+}
+header{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 25vh;
+}
+
+#navbar ul {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li a{
+    /* border: 2px solid yellow; */
+    margin: 0px 6px;
+    padding: 6px 8px;
+}
+
+/* responsive home */
+#home {
+    /* border: 2px solid red; */
+    overflow: scroll;
+}
+.homecontent{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+#home p{
+    font-size: 1rem;
+    padding: 10px;
+    margin: 22px;
+}
+
+/* responsive courses */
+#courses::before{
+
+}
+#courses{
+    /* border: 2px solid yellow; */
+    /* overflow-x: scroll; */
+}
+#cards{
+    /* border: 2px solid red; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* overflow-y: scroll; */
+    overflow-x: scroll;
+}
+
+#courses p{
+    padding: 20px;
+    font-size: 0.8rem;
+}
+#courses > h1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    /* text-align: center; */
+    font-size: 2rem;
+}
+.courseCards{
+    border: 1px solid rgb(175, 164, 232);
+    margin: 25px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    overflow: hidden;
+}
+/* responsive about */
+#about{
+    overflow-y: scroll;
+}
+
+/* responsive contact */
+#contact h1{
+    font-size: 2rem;
+}
+#contform{
+    width: auto;
+    margin: 0px 10px;
+}
+#contact input, 
+#contact textarea{
+    padding: 5px;
+    margin: 7px 0px;
+    border-radius: 10px;
+}
+#contform form{
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+#contform form .btn{
+    width: 80px;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+#contform input::placeholder{
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+}
+
+#contform textarea::placeholder{
+    font-size: 0.9rem;
+}
+
+/* responsive footer */
+#rights{
+    font-size: 0.8rem;
+}
+/* utility css */
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1rem;
+}
